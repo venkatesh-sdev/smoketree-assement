@@ -1,7 +1,7 @@
 import { AddressType } from "@/types/type";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://smoketree-assement.onrender.com/";
 
 const api = axios.create({
   baseURL: BASE_URL,
